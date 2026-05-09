@@ -1,0 +1,11 @@
+mouseMovements,clicks,scrollCount,idleTime,label
+10,2,5,10,Neutral
+100,5,15,0,Engaged
+120,8,10,1,Engaged
+20,3,30,5,Confused
+15,2,40,8,Confused
+150,20,10,2,Frustrated
+200,25,5,1,Frustrated
+5,1,2,100,Bored
+2,0,1,150,Bored
+50,4,10,5,Neutral

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/icon48.png" alt="Logo" class="logo">
+      <h1>EmotionSense</h1>
+    </header>
+    
+    <div class="status-card">
+      <p class="label">Current State</p>
+      <div id="emotion-display" class="emotion-neutral">Loading...</div>
+      <p id="time-display" class="timestamp"></p>
+    </div>
+
+    <div class="stats">
+      <div class="stat-item">
+        <span class="stat-label">Engagement</span>
+        <div class="progress-bar"><div id="engagement-bar" style="width: 0%"></div></div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Focus Score</span>
+        <span id="focus-score">0</span>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="view-dashboard" class="primary-btn">View Full Dashboard</button>
+      <button id="settings-btn" class="secondary-btn">Settings</button>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 EmotionSense AI</p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

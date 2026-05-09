@@ -1,0 +1,9 @@
+{
+  "name": "EmotionSense – AI Emotion Detection Learning Assistant",
+  "description": "A Chrome extension and AI-powered dashboard that monitors user behavior to detect emotional states like confusion, frustration, and engagement during online study sessions.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": []
+}

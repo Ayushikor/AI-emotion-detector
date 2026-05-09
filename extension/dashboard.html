@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EmotionSense Dashboard</title>
+  <style>
+    body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background: #f8fafc; }
+    .loader { border: 4px solid #f3f3f3; border-top: 4px solid #10b981; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="loader"></div>
+  <p>Loading your learning dashboard...</p>
+  <script>
+    // In a real extension, you'd bundle the React app.
+    // For this environment, we redirect to the preview URL.
+    const APP_URL = window.location.origin; // Or a specific URL
+    window.location.href = APP_URL;
+  </script>
+</body>
+</html>
